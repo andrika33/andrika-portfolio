@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrika — Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.55;
+      color: #1a1a1a;
+      background: white;
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 52px;
+    }
+    h1 {
+      font-size: 26pt;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 2px;
+    }
+    .subtitle {
+      font-size: 11pt;
+      color: #555;
+      margin-bottom: 6px;
+    }
+    .contact {
+      font-size: 9pt;
+      color: #555;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 6px;
+    }
+    .contact span { color: #ccc; }
+    .contact a { color: #555; text-decoration: none; }
+    h2 {
+      font-size: 9pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      border-bottom: 1.5px solid #1a1a1a;
+      padding-bottom: 3px;
+      margin: 20px 0 10px;
+    }
+    .job { margin-bottom: 15px; }
+    .job-title { font-size: 10.5pt; font-weight: 600; }
+    .job-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 4px;
+    }
+    .company { font-size: 9.5pt; color: #444; }
+    .period { font-size: 9pt; color: #777; white-space: nowrap; margin-left: 8px; }
+    ul { padding-left: 15px; margin-top: 4px; }
+    li { margin-bottom: 3px; font-size: 9.5pt; color: #222; text-align: justify; }
+    li strong { color: #1a1a1a; }
+    .skills-table { width: 100%; border-collapse: collapse; }
+    .skills-table td { font-size: 9.5pt; padding: 2px 0; vertical-align: top; }
+    .skills-table td:first-child {
+      font-weight: 600;
+      white-space: nowrap;
+      padding-right: 12px;
+      width: 120px;
+      color: #1a1a1a;
+    }
+    .skills-table td:last-child { color: #333; }
+    .edu-title { font-size: 10pt; font-weight: 600; }
+
+    @media print {
+      body { padding: 18mm 20mm; font-size: 9.5pt; }
+      @page { margin: 0; size: A4; }
+      h2 { margin: 16px 0 8px; }
+      .job { margin-bottom: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <h1>Andrika</h1>
+  <div class="subtitle">Full Stack Developer</div>
+  <div class="contact">
+    <span>Bandung, Indonesia</span>
+    <span>·</span>
+    <span>+62 859 1069 73867</span>
+    <span>·</span>
+    <a href="mailto:contact@andrika.my.id">contact@andrika.my.id</a>
+    <span>·</span>
+    <a href="https://linkedin.com/in/andrika33" target="_blank">linkedin.com/in/andrika33</a>
+    <span>·</span>
+    <a href="https://portfolio.andrika.my.id" target="_blank">portfolio.andrika.my.id</a>
+  </div>
+
+  <!-- Summary -->
+  <h2>Summary</h2>
+  <p style="font-size:9.5pt; color:#222; text-align:justify;">
+    Full Stack Developer with 6+ years of experience delivering end-to-end web systems, from business analysis and ERD design to API development, server deployment, and client handover. Built production systems across banking, automotive, healthcare, and energy sectors, including core banking integrations, procurement platforms, approval workflows, and reporting dashboards. Proficient in Laravel, FastAPI, .NET, and React, with hands-on experience in Docker, Kubernetes, and CI/CD. Frequently takes on cross-functional roles including system analysis, database design, and direct client coordination.
+  </p>
+
+  <!-- Skills -->
+  <h2>Skills</h2>
+  <table class="skills-table">
+    <tr>
+      <td>Languages</td>
+      <td>PHP, Python, JavaScript, C#</td>
+    </tr>
+    <tr>
+      <td>Frameworks</td>
+      <td>Laravel, FastAPI, .NET Core, .NET Framework MVC, Next.js, React, jQuery, Tailwind CSS, Bootstrap</td>
+    </tr>
+    <tr>
+      <td>Databases</td>
+      <td>PostgreSQL, MySQL, SQL Server</td>
+    </tr>
+    <tr>
+      <td>Tools</td>
+      <td>Docker, Kubernetes, Git, MinIO, CI/CD, Windows Server</td>
+    </tr>
+    <tr>
+      <td>Competencies</td>
+      <td>System Analysis, ERD & Database Design, REST API Development, Core Banking Integration, Approval Workflow Design, Query Optimization, Requirements Gathering, Project Coordination</td>
+    </tr>
+  </table>
+
+  <!-- Work Experience -->
+  <h2>Work Experience</h2>
+
+  <div class="job">
+    <div class="job-title">Software Engineer</div>
+    <div class="job-meta">
+      <span class="company">PT Astra Daihatsu Motor &nbsp;·&nbsp; Jakarta, Indonesia</span>
+      <span class="period">Dec 2024 – Dec 2025</span>
+    </div>
+    <ul>
+      <li>Built ADM's internal procurement platform as one of two fullstack developers (team of 3 with 1 PM), consolidating RSS, RFQ, SSP, Re-RFQ, and Re-RVP modules from multiple separate applications into a single web system using .NET Core 9, SQL Server, and Windows Server.</li>
+      <li>Handled end-to-end delivery including frontend, backend, and server deployment/setup, supporting 20+ active suppliers across the full procurement lifecycle.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-title">Full Stack Developer</div>
+    <div class="job-meta">
+      <span class="company">PT Solusi Senyum Indonesia (KLAR Smile) &nbsp;·&nbsp; Jakarta, Indonesia</span>
+      <span class="period">Jun 2023 – Aug 2024</span>
+    </div>
+    <ul>
+      <li>Built the Treatment Notification Update feature with WhatsApp integration across city-based clinic branches, reducing dentist notification delays and speeding up treatment confirmations by ~25%.</li>
+      <li>Developed a Sales Dashboard automating Sell In and Sell Out reporting across branches, improving data transparency and eliminating manual reporting errors.</li>
+      <li>Resolved N+1 query issues and post-deployment regressions, improving platform stability and performance (Laravel, PostgreSQL, Docker, Kubernetes, MinIO).</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-title">Freelance Full Stack Developer</div>
+    <div class="job-meta">
+      <span class="company">PT Sanbersy &nbsp;·&nbsp; Remote</span>
+      <span class="period">Jan 2023 – Nov 2023</span>
+    </div>
+    <ul>
+      <li><strong>CMS Hukum Online:</strong> Built a legal content management system in a team of 4 (PM, Frontend, Backend, UI/UX), covering role management, user management, article management, and legal clause (pasal) data, with WebSocket integration for real-time online user monitoring and collaborative clause editing.</li>
+      <li><strong>Rumah Amal Salman:</strong> Led the initial project phase as both fullstack developer and PM, delivering zakat and wakaf donation features alongside the first version of the public-facing website using Laravel and PostgreSQL.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-title">Backend Developer</div>
+    <div class="job-meta">
+      <span class="company">PT Ihsan Solusi Informatika &nbsp;·&nbsp; Bandung, Indonesia</span>
+      <span class="period">Jan 2019 – Jun 2023</span>
+    </div>
+    <ul>
+      <li>Frequently took on cross-functional roles beyond backend development, handling business analysis, system design (ERD, flowchart), and direct client communication depending on project needs.</li>
+      <li><strong>UNIFE (PT Pos Indonesia):</strong> Led the project end-to-end in a team of 5, designed the ERD, selected FastAPI and React as the stack, and managed client communication from kickoff through module change requests.</li>
+      <li><strong>UNIFE (PT Pos Indonesia):</strong> Built APIs covering 10+ payment categories including electricity, telecom, PDAM, multi-finance, insurance, gas, cable TV, zakat, regional revenue, and MPN G3 tax/eBilling, integrated with the Pospay and Wesell core banking systems. Also handled daily teller cash advance (panjar) allocation.</li>
+      <li><strong>IFOS (Bank Jabar Syariah):</strong> Took over backend development in a team of 4, re-analyzed the existing ERD, and simplified the expense approval flow from 12 steps to 8, enabling parallel approvals and eliminating single-point bottlenecks.</li>
+      <li><strong>Saku Emas (Bank Syariah Mandiri):</strong> Designed the ERD and built the platform with 2 developers using Laravel, covering gold buy/sell transactions, real-time gold price tracking, BSM installment akad, and transaction history, with direct integration to Antam for price, stock, and product data.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-title">Backend Developer (Freelance)</div>
+    <div class="job-meta">
+      <span class="company">PT Sigma Cipta Utama &nbsp;·&nbsp; Jakarta, Indonesia</span>
+      <span class="period">Apr 2021 – Mar 2022</span>
+    </div>
+    <ul>
+      <li><strong>SPIIRIT v2 (Pertamina):</strong> Built multi-stage approval workflows in a team of 4 using .NET Framework MVC, covering the full ideation lifecycle from ideation form submission, deliverable timeline, to budget drawdown approval, revision, and rejection states.</li>
+      <li>Resolved slow dashboard chart loading by optimizing queries, adding indexing, and migrating heavy query logic to SQL Server Stored Procedures, significantly reducing data retrieval time.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-title">Full Stack Developer</div>
+    <div class="job-meta">
+      <span class="company">PT BIA Energi &nbsp;·&nbsp; Bandung, Indonesia</span>
+      <span class="period">Jan 2018 – Nov 2018</span>
+    </div>
+    <ul>
+      <li><strong>SPIRIT (Pertamina):</strong> Joined a team of 7 as a fullstack developer, contributing to ERD design alongside the Project Manager and handling both frontend and backend development.</li>
+      <li>Built a budget drawdown feature for finance and field teams using .NET Framework MVC, generating cost estimates per work timeline to keep project proposals within budget constraints.</li>
+      <li>Optimized dashboard queries, cutting data processing time from 8 minutes to 1.5 minutes.</li>
+    </ul>
+  </div>
+
+  <!-- Education -->
+  <h2>Education</h2>
+  <div class="job">
+    <div class="edu-title">Bachelor's Degree, Informatics Engineering</div>
+    <div class="job-meta">
+      <span class="company">Universitas Komputer Indonesia &nbsp;·&nbsp; Bandung, Indonesia</span>
+      <span class="period">2013 – 2017</span>
+    </div>
+  </div>
+
+</body>
+</html>
