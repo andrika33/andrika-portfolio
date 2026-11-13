@@ -91,6 +91,14 @@
       transition: opacity 0.2s;
     }
     .copy-toast.show { opacity: 1; }
+    a.portfolio-link:hover {
+      opacity: 1;
+      font-weight: 700;
+      color: #18181b;
+    }
+    .dark a.portfolio-link:hover {
+      color: #f4f4f5;
+    }
   </style>
 </head>
 <body class="bg-white dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 min-h-screen transition-colors duration-300">
@@ -186,14 +194,14 @@
         bio: 'Full-stack web developer dengan pengalaman membangun sistem enterprise, mulai dari antarmuka hingga API, database, dan infrastruktur deployment.',
         langBtn: 'EN',
         resume: 'Lihat resume saya',
-        portfolio: 'Kamu juga bisa mengunjungi portfolio saya <a href="https://portfolio.andrika.my.id" target="_blank" rel="noopener" class="hover:text-zinc-700 dark:hover:text-zinc-200">di sini</a>.',
+        portfolio: 'Kamu juga bisa mengunjungi portfolio saya <a href="https://portfolio.andrika.my.id" target="_blank" rel="noopener" class="portfolio-link">di sini</a>.',
       },
       en: {
         title: 'Full Stack Web Developer',
         bio: 'Full-stack web developer with experience building enterprise-grade systems, from UI and API to database and deployment infrastructure.',
         langBtn: 'ID',
         resume: 'View my resume',
-        portfolio: 'You can also visit my portfolio <a href="https://portfolio.andrika.my.id" target="_blank" rel="noopener" class="hover:text-zinc-700 dark:hover:text-zinc-200">here</a>.',
+        portfolio: 'You can also visit my portfolio <a href="https://portfolio.andrika.my.id" target="_blank" rel="noopener" class="portfolio-link">here</a>.',
       }
     }
 
